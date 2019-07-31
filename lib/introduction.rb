@@ -1,14 +1,14 @@
-introduction = (name)
+def introduction(name)
   puts "Hi, my name is #{name}"
 end
-introduction
+introduction("Jazmin")
 
-introduction_with_language = (name, language)
-  puts "Hi, my name is #{Jaz} and I am learning to program in #{Ruby}"
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
-introduction_with_language
+introduction_with_language("Jazmin", "Ruby")
 
-introduction_with_language_optional = (name, language)
-  puts "Hi, my name is #{Jaz} and I am learning to program in #{Ruby}"
+def introduction_with_language_optional = (name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 introduction_with_language_optional ("Jaz", "Ruby")
